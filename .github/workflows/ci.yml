@@ -39,4 +39,4 @@ jobs:
           THUNDRA_AGENT_REPORT_REST_BASEURL: https://collector.thundra.me/v1
           THUNDRA_AGENT_DEBUG_ENABLE: true
           THUNDRA_APIKEY: ${{ secrets.THUNDRA_APIKEY }}
-          THUNDRA_AGENT_PROJECT_ID: ${{ secrets.THUNDRA_PROJECT_ID }} 
+          THUNDRA_AGENT_TEST_PROJECT_ID: ${{ secrets.THUNDRA_PROJECT_ID }} 
